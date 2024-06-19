@@ -33,7 +33,7 @@ const Quote = () => {
         <p className="text-lg text-gray-700">Loading...</p>
       ) : (
         <>
-          <p className="text-xl text-gray-800 mb-4">"{quote}"</p>
+          <p className="text-xl text-gray-800 mb-4">{quote}</p>
           <p className="text-lg text-gray-600">- {author}</p>
         </>
       )}
